@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tarefa 02</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        <h1>Formulário</h1>
+        <ol>
+            <form action="https://www.w3schools.com/action_page.php">
+                <div>
+                    <li><h3>Data & Dados de Acesso</h3></li>
+                    <label for="data">Data:</label><br>
+                    <input type="date" id="data" name="data" /><br>
+                    <br>
+                    <label for="fname">User:</label>
+                    <input type="text" id="fname" name="fname" />
+                    <label for="senha">Pass:</label>
+                    <input type="password" id="senha" name="senha" />
+                </div>
+
+                <br>
+
+                <div>
+                    <li><h3>Dados Pessoais</h3></li>
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" /><br>
+
+                    <label for="address">Endereço:</label>
+                    <input type="text" id="address" name="address" /><br>
+
+                    <label for="number">Número:</label>
+                    <input type="text" id="number" name="number" /><br>
+
+                    <label for="complement">Complemento (Opcional):</label>
+                    <input type="text" id="complement" name="complement" /><br>
+
+                    <label for="city">Cidade:</label>
+                    <input list="city" id="city" name="city" /><br>
+                    <datalist id="city">
+                        <option value="Sorocaba"></option>
+                        <option value="Boituva"></option>
+                    </datalist>
+
+                    <label for="state">Estado:</label>
+                    <select id="state" name="state">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+
+                    <br><label for="cep">CEP:</label>
+                    <input type="text" id="cep" name="cep" /><br>
+                </div>
+
+                <div>
+                    <li><h3>Gênero</h3></li>
+                    <p>Escolha o seu Sexo:
+                    <input type="radio" id="male" name="sex" value="male" />
+                    <label for="male">Masculino</label>
+                    <input type="radio" id="female" name="sex" value="female" />
+                    <label for="female">Feminino</label>
+                    <input type="radio" id="it" name="sex" value="it" />
+                    <label for="it">Prefiro não falar</label>
+                    </p>
+                </div>
+
+                <div>
+                    <li><h3>Curso</h3></li>
+                    <p>Escolha o seu(s) curso(s):</p>
+                    <input type="checkbox" id="ads" name="course1" value="ADS" />
+                    <label for="ads">ADS</label><br>
+                    <input type="checkbox" id="games" name="course2" value="Jogos" />
+                    <label for="games">Jogos</label><br>
+                    <input type="checkbox" id="ti" name="course3" value="TI" />
+                    <label for="ti">Gestão de TI</label><br>
+                    <input type="checkbox" id="database" name="course4" value="Database" />
+                    <label for="database">Banco de Dados</label><br>
+                </div>
+
+                <div>
+                    <li><h3>Modelo</h3></li>
+                    <p>Escolha o seu modelo:</p>
+                    <input type="radio" id="in_person" name="model" value="presencial" />
+                    <label for="in_person">Presencial</label><br>
+                    <input type="radio" id="DL" name="model" value="EAD" />
+                    <label for="DL">EAD</label><br>
+                    <input type="radio" id="semi-in_person" name="model" value="semi-presencial" />
+                    <label for="semi-in_person">Semi presencial</label><br>
+
+                    <br>
+
+                    <input type="submit" value="Enviar" />
+                </div>
+            </form>
+        </ol>
+    </body>
+</html>
