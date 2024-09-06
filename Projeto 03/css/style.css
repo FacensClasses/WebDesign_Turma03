@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+.texto-verde {
+    color: green;
+}
+
+#texto-azul {
+    color: blue;
+    background-color: yellow;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid black;
+}
+
+.titulo {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.paddingEsq {
+    padding-left: 200px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
