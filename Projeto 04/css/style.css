@@ -1,0 +1,91 @@
+/**Inicialização Padrão**/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/**Personalização do corpo**/
+body {
+    background-color: black;
+}
+
+nav {
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 0, 0);
+}
+
+/**Posição**/
+.menu {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.center img {
+    border-radius: 5%;
+}
+
+.center p {
+    margin-top: 15px;
+}
+
+/**Alterações de Cores**/
+a:hover
+{
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-color: rgb(255, 0, 0);
+}
+
+/**Google Fontes**/
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nunito-uniquifier {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.handjet-uniquifier {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+}
