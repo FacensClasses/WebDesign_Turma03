@@ -10,49 +10,49 @@ body {
     background-color: black;
 }
 
-nav {
-    padding: 10px;
-}
-
-li {
-    display: inline;
-    margin-right: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(206, 0, 0);
-}
-
-/**Posição**/
 .menu {
     text-align: center;
 }
 
-.center {
+.menu a {
+    text-decoration: none;
+    color: red;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav {
+    padding: 10px;
+}
+
+.conteudo {
     text-align: center;
 }
 
-.center img {
-    border-radius: 5%;
-    border: 2px solid white;
-}
-
-.center p {
-    margin-top: 15px;
-}
-
-/**Alterações de Cores**/
-a:hover
-{
+.conteudo a {
+    text-decoration: none;
     color: white;
 }
 
+/**Alterações de Cores**/
 h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+}
+
 p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+a:hover {
     color: white;
 }
 
@@ -77,7 +77,7 @@ hr {
 .nunito-uniquifier {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 444;
   font-style: normal;
 }
 
