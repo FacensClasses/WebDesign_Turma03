@@ -9,12 +9,29 @@ body {
 }
 
 main {
-    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    
+    min-height: 100vh;
+}
+
+main button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.teste {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    gap: 20px;
 }
 
 main a {
     text-decoration: none;
     color: white;
 }
+
