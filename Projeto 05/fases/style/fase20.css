@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cat_ {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.camel_ {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.horse_ {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cat {
+    border: 5px solid #25fc09;
+}
+
+.camel {
+    border: 5px solid #c9bf07;
+}
+
+.horse {
+    border: 5px solid #ee0b0b;
+}
