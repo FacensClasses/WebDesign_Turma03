@@ -53,6 +53,7 @@
 .white-button {
     background-color: #FFFFFF;
     border: 3px solid #091133;
+    color: #091133;
 }
 
 .white-button:hover {
