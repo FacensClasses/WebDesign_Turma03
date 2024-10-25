@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Projeto 11</title>
+        
+    </head>
+    <body>
+        <h1 id="titulo">Meu Título</h1>
+        <p id="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum, at ducimus aliquam delectus hic.</p>
+        <div class="altera">
+            <img id="imagem" style="height: 150px;" src="img/cat.png" alt="imagens" />
+            <button onclick="mostra()" class="button">Alterar Imagem</button>
+        </div>
+        <div class="button2">
+            <button id="btn-titulo" onclick="altera()" class="button">Título</button>
+            <button id="btn-paragrafo" onclick="cor()" class="button">Parágrafo</button>
+            <button id="btn-audio" onclick="toca()" class="button">Áudio</button>
+
+            <audio id="mario">
+                <source src="audio/Coin mario.wav">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <audio id="die">
+                <source src="audio/Die.wav">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <audio id="explosion">
+                <source src="audio/explosion.wav">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>    
+        <div class="button3">
+            <button onclick="retira()">Altera buttons</button>
+            <button onclick="btn2()">Btn 2</button>
+            <button onclick="btn3()">Btn 3</button>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
